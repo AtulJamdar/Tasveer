@@ -125,7 +125,7 @@ export default function GalleryPage() {
     };
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [selectedIdx]);
+  }, [selectedIdx, handleNext, handlePrev, handleClose]);
 
   const handleClose = () => {
     setSelectedIdx(null);
