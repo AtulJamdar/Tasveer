@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
 
 const GALLERY_CATEGORIES = ["All Stories", "Cinematic Films", "Intimate Rituals", "Editorial Portraits"];
 
